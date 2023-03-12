@@ -2,7 +2,7 @@ import { Card } from '@7shifts/sous-chef';
 import { Button } from '@7shifts/sous-chef';
 import { PasswordField, TextField } from '@7shifts/sous-chef';
 import { Form, FormFooter, FormRow } from '@7shifts/sous-chef';
-import { Link } from '@7shifts/sous-chef/dist/actions';
+import { Link } from '@7shifts/sous-chef';
 import './LoginPage.scss';
 
 const LoginPage = () => {
@@ -25,30 +25,27 @@ const LoginPage = () => {
                                 </FormRow>
                                 <PasswordField
                                     name="password"
+                                    label="Better Password"
                                     onBlur={function noRefCheck() {}}
                                     onChange={function noRefCheck() {}}
                                     placeholder="Type your password"
                                 />
+                                <div>
+                                    <Link
+                                        href="http://souschef.7shifts.com"
+                                        onClick={function noRefCheck() {}}
+                                    >
+                                        Forgot passord? Click here!
+                                    </Link>
+                                </div>
 
-                                {/* <Link
-                                    href="http://souschef.7shifts.com"
-                                    onClick={function noRefCheck() {}}
+                                <Button
+                                    theme="primary"
+                                    size="full-width"
+                                    onClick={() => {}}
                                 >
-                                    Forgot passord? Clic here!
-                                </Link> */}
-
-                                <FormFooter
-                                    actions={{
-                                        primary: (
-                                            <Button
-                                                size="full-width"
-                                                onClick={() => {}}
-                                            >
-                                                Enviar
-                                            </Button>
-                                        )
-                                    }}
-                                />
+                                    Enviar
+                                </Button>
                             </Form>
                         </Card>
                     </div>
