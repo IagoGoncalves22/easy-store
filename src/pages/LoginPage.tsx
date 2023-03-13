@@ -1,7 +1,7 @@
 import { Card } from '@7shifts/sous-chef';
 import { Button } from '@7shifts/sous-chef';
 import { PasswordField, TextField } from '@7shifts/sous-chef';
-import { Form, FormFooter, FormRow } from '@7shifts/sous-chef';
+import { Form, FormRow } from '@7shifts/sous-chef';
 import { Link } from '@7shifts/sous-chef';
 import './LoginPage.scss';
 import imageToAdd from './images/img-login.jpg';
