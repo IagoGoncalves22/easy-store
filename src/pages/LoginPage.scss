@@ -34,9 +34,6 @@ body {
     height: 480px;
     left: 695px;
     top: 80px;
-    border: red solid 3px;
-
-    // background: url(—Pngtree—people working in a table_7537097.png);
 }
 
 .right-column img {
@@ -48,7 +45,7 @@ body {
     width: 732px;
     height: 201px;
     // left: 10px;
-    top: 300px;
+    top: 460px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -56,8 +53,9 @@ body {
     font-size: 36px;
     line-height: 44px;
     text-align: center;
+    color: #000000;
 }
 
- {
-    size: 80px;
+.color-span {
+    color: #6d87dd;
 }
