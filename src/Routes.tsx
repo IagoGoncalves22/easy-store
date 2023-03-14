@@ -6,9 +6,6 @@ import {
     Navigate
 } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
-import '@7shifts/sous-chef/dist/index.css';
-// import CustomerPage from './pages/CustomerPage';
-// import SchedulePage from './pages/SchedulePage';
 
 const router = createBrowserRouter([
     {
