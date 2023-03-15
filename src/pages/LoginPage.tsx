@@ -1,11 +1,15 @@
-import { Card, Text } from '@7shifts/sous-chef';
-import { Button } from '@7shifts/sous-chef';
-import { PasswordField, TextField } from '@7shifts/sous-chef';
-import { Form } from '@7shifts/sous-chef';
-import { Link } from '@7shifts/sous-chef';
+import {
+    Card,
+    Text,
+    Button,
+    PasswordField,
+    TextField,
+    Form,
+    Link,
+    Stack
+} from '@7shifts/sous-chef';
 import './LoginPage.scss';
-import imageToAdd from './images/img-login.jpg';
-
+import imageToAdd from '../assets/login.svg';
 const LoginPage = () => {
     return (
         <div className="container">
@@ -34,10 +38,12 @@ const LoginPage = () => {
 
             <div className="right-column">
                 <img src={imageToAdd} alt="" />
-                <Text>
-                    Manage your business
-                    <Text color="#6d87dd"> easier!</Text>
-                </Text>
+                <Stack alignItems="center">
+                    <Text as="insight">Manage your business</Text>
+                    <Text color="#6d87dd" as="insight">
+                        easier! 🎉
+                    </Text>
+                </Stack>
             </div>
         </div>
     );
