@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        width: 100%;
+    }
+}
+
+.login-page {
+    position: absolute;
+    width: 547px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(200.03deg, #3abda9 -8.99%, #6179c6 105.7%);
+}
+
+.login-card {
+    position: absolute;
+    width: 490px;
+    height: 292px;
+    left: 29px;
+    top: 180px;
+    background: #ffffff;
+}
+
+.right-column {
+    position: absolute;
+    width: 695px;
+    height: 480px;
+    left: 695px;
+}
